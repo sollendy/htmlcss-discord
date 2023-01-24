@@ -1,6 +1,7 @@
 body{
     /* background-color: chartreuse; */
     font-family: Arial, sans-serif;
+    background-color: rgb(35, 39, 42);
 }
 
 header{
@@ -124,11 +125,14 @@ header nav{
     background-color: rgb(246, 246, 246);
 }
 
+.sezioni:nth-of-type(odd){
+    background-color: white;
+}
+
 .immagini{
     height: 70%;
     width: 40%;
     /* background-color: coral; */
-
 }
 
 .titoli{
@@ -141,14 +145,11 @@ header nav{
     justify-content: space-between;
 }
 
-.testo-4{
-    height: 24%;
-}
-
 .quarta-sez{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding-top: 100px;
 }
 
 .testo-4{
@@ -216,7 +217,7 @@ footer aside{
 }
 
 footer aside h1{
-    color: rgb(86, 43, 226);
+    color: rgb(115, 137, 219);
     font-size: 30px;
     padding-bottom: 20px;
 }
