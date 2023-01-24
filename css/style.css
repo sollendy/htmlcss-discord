@@ -1,5 +1,5 @@
 body{
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     font-family: Arial, sans-serif;
 }
 
@@ -108,8 +108,8 @@ header nav{
 }
 
 .sezioni{
-    background-color: cadetblue;
-    height: 500px;
+    /* background-color: cadetblue; */
+    height: 700px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -119,14 +119,22 @@ header nav{
 .immagini{
     height: 70%;
     width: 40%;
-    background-color: coral;
+    /* background-color: coral; */
 
 }
 
 .titoli{
     width: 30%;
-    height: 70%;
-    background-color: aquamarine;
+    height: 42%;
+    /* background-color: aquamarine; */
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.testo-4{
+    height: 24%;
 }
 
 .quarta-sez{
@@ -153,15 +161,29 @@ header nav{
 }
 
 #testo-finale{
-    height: 10%;
+    height: 7%;
     width: 40%;
-    background-color: deeppink;
+    /* background-color: deeppink; */
+    background-image: url(../img/stars.svg);
+    text-align: center;
 }
 
 #download{
-    height: 10%;
-    width: 20%;
-    background-color: blueviolet;
+    background-color: rgb(101, 43, 226);
+    width: 200px;
+    height: 45px;
+    padding-top: 8px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#download a{
+    /* height: 10%;
+    width: 20%; */
+    /* background-color: blueviolet; */
+    text-decoration: none;
+    color: white;
+    font-size: large;
 }
 footer{
     background-color: forestgreen;
